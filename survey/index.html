@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Best Genre Survey
+  </title>
+</head>
+<h1 id="title">Best Genre Survey</h1>
+<p id="description">Figure out which genre of music is the most popularized around certain ages!</p>
+<form id="survey-form">
+  <div class="input-element">
+    <label id="name-label">
+      Name
+      </label>
+    <input placeholder="name" id="name" type="text" required/>
+  </div>
+  <div class="input-element">
+    <label id="email-label">
+      Email
+      </label>
+    <input placeholder="email" id="email" type="email" required/>
+  </div>
+  <div class="input-element">
+    <label id="number-label">
+      Age
+      </label>
+    <input placeholder="age" id="number" min="5" max="100" type="number" required/>
+  </div>
+  <div class="input-element"> <label id="select-label">
+    Who's your favorite music genre?
+    </label>
+    <select id="dropdown">
+<option>Rap</option>
+<option>Indie</option>
+<option>Jazz</option>
+<option>Rock</option>
+<option>Hip-Hop</option>
+<option>Country</option>
+<option>Pop</option>
+        </select>
+  </div>
+  <div class="input-element">
+    <label>Would you say the music genres even matter?</label>
+    <div>
+      <label><input type="checkbox" name="music" value="yes">Yes</label>
+    </div>
+    <div>
+      <label><input type="checkbox" name="music" value="No">No</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label>Which of these select music genres would you say is this best to listen to?</label>
+  </div>
+  <div>
+    <label><input type="radio" name="Music2" value="Rap">Rap</label>
+  </div>
+  <div>
+    <label><input type="radio" name="Music2" value="Indie">Indie</label>
+  </div>
+  <div>
+    <label><input type="radio" name="Music2" value="Jazz">Jazz</label>
+  </div>
+  <div>
+    <label><Input type="radio" name="Music2" value="Rock">Rock</label>
+  </div>
+  <div>
+    <label><Input type="radio" name="Music2" value="HipHop">Hip-Hop</label>
+  </div>
+  <div>
+    <label><Input type="radio" name="Music2" value="Country">Country</label>
+  </div>
+  <div>
+    <label><Input type="radio" name="Music2" value="Pop">Pop</label>
+  </div>
+  <div class="input-element">
+    <label>Additional Music Genres</label>
+    <textarea></textarea>
+  </div>
+  <button type="submit" id="submit">
+      Submit
+      </button>
+</form>
+
+</html>
