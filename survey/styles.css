@@ -8,6 +8,8 @@ Form{
   padding: 20px;
   Border: 3px solid black;
   border-radius: 10px;
+  margin-right:auto;
+  margin-left:auto;
 }
 input {
   padding: 5px;
