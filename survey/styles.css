@@ -1,0 +1,26 @@
+body{
+  background-color: #90e0ef;
+  text-align: center;
+}
+Form{
+  max-width: 500px;
+  text-align: left;
+  padding: 20px;
+  Border: 3px solid black;
+  border-radius: 10px;
+}
+input {
+  padding: 5px;
+  border: none;
+border-radius: 5px;
+}
+.input-element{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+select{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
